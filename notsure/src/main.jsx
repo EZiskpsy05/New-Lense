@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
-import shockedbaby from './Images/shockedbaby.png';
-import monopoly_money from './Images/monopoly.png';
+import shockedbaby from './assets/Images/shockedbaby.png';
+import monopoly_money from './assets/Images/monopoly.png';
 
 createRoot(document.getElementById('root')).render(
   <div>
@@ -14,6 +14,11 @@ createRoot(document.getElementById('root')).render(
   </div>
 )  
 /*
+
+div is our closer
+using <img src... allows us to add photos to our page
+
+
 <img src = {shockedbaby} alt = "" style = {{width:'400px', height: '400px'}}/>
 
 to create comments in div -- will need  multiline comments + curly brackets around it
