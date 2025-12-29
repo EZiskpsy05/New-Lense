@@ -1,8 +1,15 @@
+import './index.css';//Below chunck is our images (to be deleated later)
 import shockedbaby from './assets/Images/shockedbaby.png';
 import monopoly_money from './assets/Images/monopoly.png';
+
+//Below is our audio (to be deleated later)
 import miau_audio from './assets/Audio/montagem_miau.m4a';
 import renai_brooklyn from './assets/Audio/Just Landed in Brooklyn × Renai Circulation.m4a';
 import fahh from './assets/Audio/fahhh.m4a';
+
+
+//Below is our videos
+import backgroundVid from './assets/Videos/sakura_garden_background.mp4';
 
 function App() {
   //below 3 functions are our audio
@@ -25,13 +32,19 @@ function App() {
 
   return (
     <div className="App">
+      <video className = "background-video" src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>
+      <div className = "Content">
+      {/* these below are our texts*/}
       <h1>Hello React!</h1>
       <h0> I am wsmall </h0>
+
+      {/* these below are our images*/}
       <img src = {monopoly_money} alt = ""/>
       <img src = {shockedbaby} 
           alt = "" 
           style = {{width:'400px', height: 'auto'}}/>
       
+      {/* these below are our buttons*/}
       <button onClick = {play_montagem_miau}>
         Press to play montagem miau
       </button>
@@ -43,6 +56,7 @@ function App() {
       <button onClick = {play_fahh_sfx}>
         Press to play FahHh
       </button>
+      </div>
     </div>
   );
 }
