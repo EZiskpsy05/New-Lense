@@ -1,5 +1,5 @@
-To see local host, ensure you are in the terminal and also in the "notsure" folder
+To see/use the application
 
-than in terminal type:
+1. Open up the folders using cd [filename] in terminal: NEW-LENSE -> notsure -> frontend
 
-npm run dev
+2. In terminal type npm run dev 
