@@ -6,9 +6,14 @@
 }
 
 /*note that comments in css are same as multi line comments in c++*/
-.App {
+.Page1 {
     width: 100%;
-    height: 100vh; /* the vh addtion, means it auto scales to the window's dimentisons */
+    min-height: 100vh; /* the vh addtion, means it auto scales to the window's dimentisons */
+}
+
+.Page2 {
+    width: 100%;
+    min-height: 100vh;
 }
 
 .background-video {
@@ -18,6 +23,6 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    /*z-index: -1;*/
+    z-index: -1;
     /*border: 20px solid red !important;*/
 }

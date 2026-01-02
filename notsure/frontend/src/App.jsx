@@ -31,7 +31,8 @@ function App() {
 
 
   return (
-    <div className="App">
+    // first page content's
+    <div className="Page1">
       <video className = "background-video" src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>
       <div className = "Content">
       {/* these below are our texts*/}
@@ -57,6 +58,10 @@ function App() {
         Press to play FahHh
       </button>
       </div>
+    </div>
+
+    <div className = "Page2">
+
     </div>
   );
 }
