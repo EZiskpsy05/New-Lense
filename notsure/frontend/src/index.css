@@ -16,6 +16,28 @@
     min-height: 100vh;
 }
 
+.Page3 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Page4 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.title {
+    color: #61dafb; 
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    position: absolute;
+    top: 10vh;
+    right: 50vw;
+}
+/*fixed position means that the elemnts don't move  */
+
 .background-video {
     position: fixed;
     object-fit: cover;
