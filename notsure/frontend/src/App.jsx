@@ -36,7 +36,7 @@ function App() {
       <video className = "background-video" src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>
       <div className = "Page1">
         {/* these below are our texts*/}
-        <h1>Hello React!</h1>
+        <h1 className = "title"> Lenses!</h1>
         <h0> I am wsmall </h0>
 
         {/* these below are our images*/}
@@ -63,6 +63,15 @@ function App() {
 
 
       </div>
+
+      <div className = "Page3">
+
+      </div>
+
+      <div className = "Page4">
+
+      </div>
+
     </div>
 
 
