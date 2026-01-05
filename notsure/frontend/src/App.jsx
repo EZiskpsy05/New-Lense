@@ -32,37 +32,40 @@ function App() {
 
   return (
     // first page content's
-    <div className="Page1">
+    <div className="Content">
       <video className = "background-video" src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>
-      <div className = "Content">
-      {/* these below are our texts*/}
-      <h1>Hello React!</h1>
-      <h0> I am wsmall </h0>
+      <div className = "Page1">
+        {/* these below are our texts*/}
+        <h1>Hello React!</h1>
+        <h0> I am wsmall </h0>
 
-      {/* these below are our images*/}
-      <img src = {monopoly_money} alt = ""/>
-      <img src = {shockedbaby} 
+        {/* these below are our images*/}
+        <img src = {monopoly_money} alt = ""/>
+        <img src = {shockedbaby} 
           alt = "" 
           style = {{width:'400px', height: 'auto'}}/>
-      
-      {/* these below are our buttons*/}
-      <button onClick = {play_montagem_miau}>
-        Press to play montagem miau
-      </button>
+        
+        {/* these below are our buttons*/}
+        <button onClick = {play_montagem_miau}>
+          Press to play montagem miau
+        </button>
 
-      <button onClick = {play_renai_brooklyn}>
-        Press to play renai brooklyn
-      </button>
+        <button onClick = {play_renai_brooklyn}>
+          Press to play renai brooklyn
+        </button>
 
-      <button onClick = {play_fahh_sfx}>
-        Press to play FahHh
-      </button>
+        <button onClick = {play_fahh_sfx}>
+          Press to play FahHh
+        </button>
+      </div>
+
+      <div className = "Page2"> 
+
+
       </div>
     </div>
 
-    <div className = "Page2">
 
-    </div>
   );
 }
 
