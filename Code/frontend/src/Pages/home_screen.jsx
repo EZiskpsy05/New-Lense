@@ -17,7 +17,6 @@ export function HomeScreen(){
       <div className = "Page1">
         {/* these below are our texts*/}
         <h1 className = "title"> Lenses!</h1>
-        <h0> I am wsmall </h0>
 
         {/* these below are our images*/}
         <img src = {monopoly_money} alt = ""/>
