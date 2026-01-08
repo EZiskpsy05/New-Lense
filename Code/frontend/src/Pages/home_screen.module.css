@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+/*note that comments in css are same as multi line comments in c++*/
+.Page1 {
+    width: 100%;
+    min-height: 100vh; /* the vh addtion, means it auto scales to the window's dimentisons */
+}
+
+.Page2 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Page3 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Page4 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.title {
+    color: #61dafb; 
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    position: absolute;
+    top: 10vh;
+    right: 50vw;
+}
+/*fixed position means that the elemnts don't move  */
+
+.background-video {
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    /*border: 20px solid red !important;*/
+}

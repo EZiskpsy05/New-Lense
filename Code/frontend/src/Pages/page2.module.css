@@ -1,0 +1,42 @@
+.background-video {
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    /*border: 20px solid red !important;*/
+}
+.background-video:hover {
+    /* This creates a much stronger, visible neon glow */
+    filter: drop-shadow(0 0 15px rgba(0, 140, 186, 0.9));
+}
+
+.background_button_vid {
+    background-color: #ddd;
+    /*background-color: transparent;*/
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.background_button_vid:hover {
+    /* This creates a much stronger, visible neon glow */
+    filter: drop-shadow(0 0 15px rgba(228, 33, 205, 0.9));
+}
+
+.Page_1 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Page_2 {
+    width: 100%;
+    min-height: 100vh;
+}
