@@ -1,4 +1,4 @@
-import '../App.css';//Below chunck is our images (to be deleated later)
+import styles from './home_screen.module.css';
 
 import shockedbaby from '../assets/Images/shockedbaby.png';
 import monopoly_money from '../assets/Images/monopoly.png';
@@ -12,11 +12,11 @@ export function HomeScreen(){
 
   return (
     // first page content's
-    <div className="Content">
-      <video className = "background-video" src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>
-      <div className = "Page1">
+    <div className={styles.Content}>
+      <video className = {styles["background-video"]} src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>
+      <div className = {styles.Page1}>
         {/* these below are our texts*/}
-        <h1 className = "title"> Lenses!</h1>
+        <h1 className = {styles.title}> Lenses!</h1>
 
         {/* these below are our images*/}
         <img src = {monopoly_money} alt = ""/>
@@ -33,15 +33,15 @@ export function HomeScreen(){
 
 
 
-      <div className = "Page2"> 
+      <div className = {styles.Page2}> 
 
       </div>
 
-      <div className = "Page3">
+      <div className = {styles.Page3}>
 
       </div>
 
-      <div className = "Page4">
+      <div className = {styles.Page4}>
 
       </div>
 
