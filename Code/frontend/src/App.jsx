@@ -11,9 +11,9 @@ function App() {
   return(
     <Router>
       <Routes>
-        <Route path ="/" element ={<HomeScreen/>}/>
-        <Route path ="/page1" element ={<Page1/>}/>
-        <Route path ="/page2" element ={<Page2/>}/>
+        <Route path = "/" element ={<HomeScreen/>}/>
+        <Route path = "/page1" element ={<Page1/>}/>
+        <Route path = "/page2" element ={<Page2/>}/>
 
       </Routes>
     </Router>
