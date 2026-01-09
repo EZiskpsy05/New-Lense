@@ -1,4 +1,6 @@
 import styles from './home_screen.module.css';
+import { Link } from 'react-router-dom'; // will allow for links to other pages
+
 
 import shockedbaby from '../assets/Images/shockedbaby.png';
 import monopoly_money from '../assets/Images/monopoly.png';
@@ -24,6 +26,13 @@ export function HomeScreen(){
           alt = "" 
           style = {{width:'400px', height: 'auto'}}/>
         
+        <Link className = {styles.link_page_2} to = "/page2">
+          <button className>
+            Click me to proceed to page 2
+          </button>
+        </Link>
+
+
         {/* these below are our buttons*/}
         <PlayRenaiBrooklyn />
         <PlayMontagemMiau />

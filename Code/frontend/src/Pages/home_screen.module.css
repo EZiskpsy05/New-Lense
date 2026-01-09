@@ -27,6 +27,17 @@
 }
 
 
+.link_page_2{
+    color: #61dafb; 
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    top: 30vh;
+    right: 50vw;
+}
+
+
 .title {
     color: #61dafb; 
     font-family: 'Inter', Arial, sans-serif;
