@@ -5,6 +5,18 @@
 
 }
 
+/*
+background-color: black;
+
+#0F766E
+
+*/
+
+.Content {
+    background-image: radial-gradient(#0F766E, black);
+
+}
+
 /*note that comments in css are same as multi line comments in c++*/
 .Page1 {
     width: 100%;
