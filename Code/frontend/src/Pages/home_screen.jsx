@@ -24,9 +24,9 @@ export function HomeScreen(){
         {/*<img src = {monopoly_money} alt = ""/>*/}
         {/*<img src = {shockedbaby} alt = "" style = {{width:'400px', height: 'auto'}}/>*/}
         
-        <Link className = {styles.link_page_2} to = "/page2">
-          <button className>
-            Click me to proceed to page 2
+        <Link className = {styles.link_page_2} to = "/output">
+          <button>
+            Click me to proceed to Result Page
           </button>
         </Link>
 
