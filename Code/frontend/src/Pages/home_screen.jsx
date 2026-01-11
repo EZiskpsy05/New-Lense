@@ -39,19 +39,11 @@ export function HomeScreen(){
       </div>
 
 
-
-      <div className = {styles.Page2}> 
-
-      </div>
-
-      <div className = {styles.Page3}>
-
-      </div>
-
-      <div className = {styles.Page4}>
-
-      </div>
-
+      {/* these 3 below are extra pages
+      <div className = {styles.Page2}> </div>
+      <div className = {styles.Page3}></div>
+      <div className = {styles.Page4}></div>
+      */}
     </div>
 
 

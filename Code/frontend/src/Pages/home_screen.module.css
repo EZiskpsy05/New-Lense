@@ -13,14 +13,15 @@ background-color: black;
 */
 
 .Content {
-    background-image: radial-gradient(#0F766E, black);
+    background-image: radial-gradient(circle 700px at top, #0F766E, black);
+    /*background: radial-gradient(circle, lch(79 33 356) 20%, lch(82 28 253) 100%);*/
 
 }
 
-/*note that comments in css are same as multi line comments in c++*/
+/*
 .Page1 {
     width: 100%;
-    min-height: 100vh; /* the vh addtion, means it auto scales to the window's dimentisons */
+    min-height: 100vh; 
 }
 
 .Page2 {
@@ -37,7 +38,7 @@ background-color: black;
     width: 100%;
     min-height: 100vh;
 }
-
+*/
 
 .link_page_2{
     color: #61dafb; 
