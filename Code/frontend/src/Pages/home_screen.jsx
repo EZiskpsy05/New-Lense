@@ -15,16 +15,14 @@ export function HomeScreen(){
   return (
     // first page content's
     <div className={styles.Content}>
-      <video className = {styles["background-video"]} src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>
+      {/*<video className = {styles["background-video"]} src = {backgroundVid} type = "video/mp4" autoPlay loop muted/>*/}
       <div className = {styles.Page1}>
         {/* these below are our texts*/}
         <h1 className = {styles.title}> Lenses!</h1>
 
         {/* these below are our images*/}
-        <img src = {monopoly_money} alt = ""/>
-        <img src = {shockedbaby} 
-          alt = "" 
-          style = {{width:'400px', height: 'auto'}}/>
+        {/*<img src = {monopoly_money} alt = ""/>*/}
+        {/*<img src = {shockedbaby} alt = "" style = {{width:'400px', height: 'auto'}}/>*/}
         
         <Link className = {styles.link_page_2} to = "/page2">
           <button className>
